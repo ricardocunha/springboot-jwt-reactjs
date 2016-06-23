@@ -2,6 +2,6 @@
   "name": "springboot-jwt-reactjs",
   "version": "1.0.0",
   "description": "Simple Auth with Spring Boot",
-  "repository": "git@github.com:ricardocunha/springboot-jwt-reactjs.git",
+  "repository": "https://github.com/ricardocunha/springboot-jwt-reactjs",
   "keywords": ["springboot", "jwt", "react"]
 }
