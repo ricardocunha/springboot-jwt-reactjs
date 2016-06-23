@@ -1,0 +1,7 @@
+{
+  "name": "springboot-jwt-reactjs",
+  "version": "1.0.0",
+  "description": "Simple Auth with Spring Boot",
+  "repository": "git@github.com:ricardocunha/springboot-jwt-reactjs.git",
+  "keywords": ["springboot", "jwt", "react"]
+}
