@@ -19,14 +19,12 @@
 		    <plugin>
 		        <groupId>com.github.eirslett</groupId>
 		        <artifactId>frontend-maven-plugin</artifactId>
-		        <!-- Use the latest released version:
-		        https://repo1.maven.org/maven2/com/github/eirslett/frontend-maven-plugin/ -->
 		        <version>1.0</version>
-			    <configuration>
-			        <workingDirectory>web</workingDirectory>
-			    </configuration>	
+  			    <configuration>
+  			        <workingDirectory>web</workingDirectory>
+  			    </configuration>
 		        <executions>
-		
+
 		          <execution>
 		            <id>install node and npm</id>
 		            <goals>
@@ -37,7 +35,7 @@
 		              <npmVersion>3.5.3</npmVersion>
 		            </configuration>
 		          </execution>
-		
+
 		          <execution>
 		            <id>npm install</id>
 		            <goals>
@@ -47,8 +45,8 @@
 		              <arguments>install</arguments>
 		            </configuration>
 		          </execution>
-		
-		          <execution>
+
+		          <!--execution>
 		            <id>npm run build</id>
 		            <goals>
 		              <goal>npm</goal>
@@ -56,10 +54,10 @@
 		            <configuration>
 		              <arguments>run start</arguments>
 		            </configuration>
-		          </execution>
-		
-		        </executions>			    	        
-		    </plugin>         
+		          </execution-->
+
+		        </executions>
+		    </plugin>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
@@ -72,7 +70,7 @@
                     </execution>
                 </executions>
             </plugin>
-           
+
         </plugins>
     </build>
 
@@ -86,7 +84,7 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-mongodb</artifactId>
             <version>${spring.boot.version}</version>
-        </dependency>        
+        </dependency>
         <dependency>
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
