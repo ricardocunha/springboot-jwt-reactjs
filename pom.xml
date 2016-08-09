@@ -46,15 +46,16 @@
 		            </configuration>
 		          </execution>
 
-		          <!--execution>
+		          <execution>
 		            <id>npm run build</id>
 		            <goals>
 		              <goal>npm</goal>
 		            </goals>
 		            <configuration>
-		              <arguments>run start</arguments>
+		              <!--arguments>run start</arguments-->
+					  <arguments>npm run start-watch</arguments>
 		            </configuration>
-		          </execution-->
+		          </execution>
 
 		        </executions>
 		    </plugin>
