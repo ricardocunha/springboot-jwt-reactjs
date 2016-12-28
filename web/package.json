@@ -24,7 +24,9 @@
     "mocha": "^2.4.5",
     "react-addons-test-utils": "^0.14.7",
     "webpack": "^1.12.9",
-    "webpack-dev-server": "^1.14.0"
+    "webpack-dev-server": "^1.14.0",
+	"webpack-merge": "0.14.0",
+	"extract-text-webpack-plugin": "1.0.1"
   },
   "dependencies": {
     "axios": "^0.10.0",
