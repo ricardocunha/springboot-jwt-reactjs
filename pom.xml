@@ -55,15 +55,6 @@
 		              <arguments>build</arguments>
 		            </configuration>
 		          </execution>				
-		          <!--execution>
-		            <id>webpack run</id>
-		            <goals>
-		              <goal>webpack</goal>
-		            </goals>
-		            <configuration>
-		              <arguments>--config webpack.prod.js --progress --profile --bail</arguments>
-		            </configuration>
-		          </execution-->
 
 		        </executions>
 		    </plugin>
