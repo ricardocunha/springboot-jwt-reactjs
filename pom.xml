@@ -45,8 +45,17 @@
 		              <arguments>install</arguments>
 		            </configuration>
 		          </execution>
-				  
+				
 		          <execution>
+		            <id>npm build</id>
+		            <goals>
+		              <goal>npm</goal>
+		            </goals>
+		            <configuration>
+		              <arguments>build</arguments>
+		            </configuration>
+		          </execution>				
+		          <!--execution>
 		            <id>webpack run</id>
 		            <goals>
 		              <goal>webpack</goal>
@@ -54,7 +63,7 @@
 		            <configuration>
 		              <arguments>--config webpack.prod.js --progress --profile --bail</arguments>
 		            </configuration>
-		          </execution>
+		          </execution-->
 
 		        </executions>
 		    </plugin>
